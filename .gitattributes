@@ -13,3 +13,4 @@
 
 # Désactiver la détection pour HTML
 *.html linguist-detectable=true
+*.bootstrap  linguist-detectable=true

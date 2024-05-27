@@ -1,0 +1,92 @@
+:root {
+    --blue: #007bff;
+    --brown: #c18d66;
+    --gray: #adb5bd;
+    --light-gray: #f8f9fa;
+}
+
+body {
+    background-color:#ddd;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-style: none;
+}
+
+.nvProduit {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: var(--blue);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    border: none;
+    margin: 40px;
+    transition: all ease 0.5s;
+}
+
+.reset:hover {
+    background-color: #ff1100;
+}
+
+.enregistrer:hover {
+    background-color: #00fa3e;
+}
+
+.primary-navigation {
+    margin: 0 auto;
+    margin-top: -80px;
+    display: block;
+    padding: 120px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    border-left: 2px solid var(--blue);
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: arvo;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: var(--blue);
+}
+
+.trash:hover {
+    color: #ff1100;
+}

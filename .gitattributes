@@ -3,10 +3,10 @@
 *.php linguist-detectable=true
 
 # Désactiver la détection pour CSS
-*.css linguist-detectable=true
+*.css linguist-detectable=false
 
 # Désactiver la détection pour SCSS
-*.scss linguist-detectable=false
+*.scss linguist-detectable=true
 
 # Désactiver la détection pour JavaScript
 *.js linguist-detectable=true

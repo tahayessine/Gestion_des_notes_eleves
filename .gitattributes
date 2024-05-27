@@ -9,7 +9,7 @@
 *.scss linguist-detectable=false
 
 # Désactiver la détection pour JavaScript
-*.js linguist-detectable=false
+*.js linguist-detectable=true
 
 # Désactiver la détection pour HTML
-*.html linguist-detectable=false
+*.html linguist-detectable=true

@@ -1,1 +1,15 @@
 * text=auto
+# Forcer la détection de PHP
+*.php linguist-detectable=true
+
+# Désactiver la détection pour CSS
+*.css linguist-detectable=false
+
+# Désactiver la détection pour SCSS
+*.scss linguist-detectable=false
+
+# Désactiver la détection pour JavaScript
+*.js linguist-detectable=false
+
+# Désactiver la détection pour HTML
+*.html linguist-detectable=false

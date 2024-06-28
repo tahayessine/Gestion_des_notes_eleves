@@ -1,2 +1,1 @@
-[![PHP](https://img.shields.io/badge/PHP-7.4-777BB4?style=flat&logo=php)](https://www.php.net/releases/7.4/en.php)
-
+Ce projet vise à développer un système de suivi des élèves au sein d’une école primaire. Le suivie concerne principalement la gestion des notes et des absences des élèves.
